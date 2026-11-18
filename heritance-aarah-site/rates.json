@@ -1,0 +1,118 @@
+{
+  "_help": "요금표 수정용 파일입니다. 숫자(price4, priceExtra)와 기간(period)만 바꾸면 페이지에 바로 반영됩니다. 객실 순서·이름은 모든 시즌에서 동일하게 유지하세요.",
+  "currency": "USD",
+  "unitNote": "1인당 리조트 입금가 · 항공권 제외",
+  "condition": "2027년 01월 31일까지 예약 시 적용 요금",
+  "mealPlan": "PREMIUM ALL INCLUSIVE",
+  "columns": { "room": "객실", "price4": "4박", "priceExtra": "1박 추가", "capacity": "최대 인원" },
+  "seasons": [
+    {
+      "id": "s1",
+      "label": "01.09 – 03.31",
+      "periods": ["2027년 01월 09일 ~ 03월 31일"],
+      "rooms": [
+        { "name": "Beach Villa", "ko": "비치빌라", "price4": 3172, "priceExtra": 673, "capacity": "3A or 2A+2C" },
+        { "name": "Sunset Pool Beach Villa", "ko": "선셋 풀비치 빌라", "price4": 3502, "priceExtra": 756, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Villa", "ko": "오션빌라", "price4": 3282, "priceExtra": 701, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Suite", "ko": "오션스윗", "price4": 3902, "priceExtra": 856, "capacity": "2A" }
+      ],
+      "mix": [
+        { "name": "비치빌라 2박 + 오션빌라 2박", "price4": 3226, "capacity": "3A or 2A+2C" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션빌라 2박", "price4": 3392, "capacity": "3A or 2A+2C" },
+        { "name": "비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3536, "capacity": "2A" },
+        { "name": "오션빌라 2박 + 오션스윗 위드풀 2박", "price4": 3592, "capacity": "2A" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3702, "capacity": "2A" }
+      ]
+    },
+    {
+      "id": "s2",
+      "label": "04.01 – 04.30",
+      "periods": ["2027년 04월 01일 ~ 04월 30일"],
+      "rooms": [
+        { "name": "Beach Villa", "ko": "비치빌라", "price4": 2938, "priceExtra": 615, "capacity": "3A or 2A+2C" },
+        { "name": "Sunset Pool Beach Villa", "ko": "선셋 풀비치 빌라", "price4": 3206, "priceExtra": 682, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Villa", "ko": "오션빌라", "price4": 3068, "priceExtra": 647, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Suite", "ko": "오션스윗", "price4": 3770, "priceExtra": 823, "capacity": "2A" }
+      ],
+      "mix": [
+        { "name": "비치빌라 2박 + 오션빌라 2박", "price4": 3004, "capacity": "3A or 2A+2C" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션빌라 2박", "price4": 3138, "capacity": "3A or 2A+2C" },
+        { "name": "비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3354, "capacity": "2A" },
+        { "name": "오션빌라 2박 + 오션스윗 위드풀 2박", "price4": 3418, "capacity": "2A" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3488, "capacity": "2A" }
+      ]
+    },
+    {
+      "id": "s3",
+      "label": "05.01 – 07.31 · 09.01 – 09.30",
+      "periods": ["2027년 05월 01일 ~ 07월 31일", "2027년 09월 01일 ~ 09월 30일"],
+      "rooms": [
+        { "name": "Beach Villa", "ko": "비치빌라", "price4": 2460, "priceExtra": 505, "capacity": "3A or 2A+2C" },
+        { "name": "Sunset Pool Beach Villa", "ko": "선셋 풀비치 빌라", "price4": 2762, "priceExtra": 581, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Villa", "ko": "오션빌라", "price4": 2580, "priceExtra": 535, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Suite", "ko": "오션스윗", "price4": 3412, "priceExtra": 743, "capacity": "2A" }
+      ],
+      "mix": [
+        { "name": "비치빌라 2박 + 오션빌라 2박", "price4": 2520, "capacity": "3A or 2A+2C" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션빌라 2박", "price4": 2672, "capacity": "3A or 2A+2C" },
+        { "name": "비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 2936, "capacity": "2A" },
+        { "name": "오션빌라 2박 + 오션스윗 위드풀 2박", "price4": 2996, "capacity": "2A" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3088, "capacity": "2A" }
+      ]
+    },
+    {
+      "id": "s4",
+      "label": "08.01 – 08.31 · 10.01 – 10.31",
+      "periods": ["2027년 08월 01일 ~ 08월 31일", "2027년 10월 01일 ~ 10월 31일"],
+      "rooms": [
+        { "name": "Beach Villa", "ko": "비치빌라", "price4": 2598, "priceExtra": 540, "capacity": "3A or 2A+2C" },
+        { "name": "Sunset Pool Beach Villa", "ko": "선셋 풀비치 빌라", "price4": 2902, "priceExtra": 616, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Villa", "ko": "오션빌라", "price4": 2720, "priceExtra": 570, "capacity": "3A or 2A+2C" },
+        { "name": "Ocean Suite", "ko": "오션스윗", "price4": 3646, "priceExtra": 802, "capacity": "2A" }
+      ],
+      "mix": [
+        { "name": "비치빌라 2박 + 오션빌라 2박", "price4": 2660, "capacity": "3A or 2A+2C" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션빌라 2박", "price4": 2810, "capacity": "3A or 2A+2C" },
+        { "name": "비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3122, "capacity": "2A" },
+        { "name": "오션빌라 2박 + 오션스윗 위드풀 2박", "price4": 3182, "capacity": "2A" },
+        { "name": "선셋 풀 비치빌라 2박 + 오션스윗 위드풀 2박", "price4": 3274, "capacity": "2A" }
+      ]
+    }
+  ],
+  "family": {
+    "title": "FAMILY OFFER",
+    "items": [
+      "아동 12세 미만 [2027.01.09 ~ 04.30 투숙] 아동 1인 무료 (왕복 수상비행기 $308 / 1인, 그린택스 $12 / 1인 / 1박 별도)",
+      "아동 12세 미만 [2027.05.01 ~ 07.31 · 09.01 ~ 09.30 투숙] 아동 2인 무료 (왕복 수상비행기 $308 / 1인, 그린택스 $12 / 1인 / 1박 별도)"
+    ],
+    "extra": [
+      { "label": "성인 12세 이상", "four": 1660, "extra": 415 },
+      { "label": "아동 12세 미만", "four": 856, "extra": 214 }
+    ]
+  },
+  "notes": {
+    "included": [
+      "리조트 숙박, 전 일정 EASY(Elegant-Authentic-Simple-Yes) True 올인클루시브 포함",
+      "왕복 수상비행기 (공항 → 리조트 → 공항)",
+      "스노클링 장비 무료 제공 및 Wi-Fi 무료",
+      "오션스윗 투숙 시, 와인셀러에 투숙 기간 동안 프리미엄 샴페인 1병 제공 (모엣샹동 또는 데땅져 급)",
+      "[2026.11.01 ~ 2027.04.30 투숙] 무료 룸 업그레이드 오퍼 (비치빌라 → 오션빌라)"
+    ],
+    "excluded": [
+      "기타 선택관광 및 개인경비, 여행자 보험",
+      "2026년 12월 24일 크리스마스 갈라디너: 성인 1인 $335 / 아동 1인 $168",
+      "2026년 12월 31일 뉴이어 갈라디너: 성인 1인 $750 / 아동 1인 $375"
+    ],
+    "cancel": [
+      "도착일 36일 전 리조트 입금가의 100% 취소 수수료가 부과됩니다.",
+      "[2026.12.21 ~ 2027.01.08 투숙] 도착일 45일 전 입금가의 100% 취소 수수료가 부과됩니다."
+    ],
+    "guide": [
+      "상기 요금은 항공권을 제외한 1인당 리조트 입금가입니다.",
+      "룸믹스 예약의 경우, 객실 순서는 체크인 시 객실 상황에 따라 변동될 수 있습니다.",
+      "허니문 특전 · 익스커션 등 포함사항은 현지 사정에 따라 변동되거나 제공되지 않을 수 있습니다.",
+      "현지 상황에 따라 레스토랑이 운영되지 않을 경우, 리조트의 대안 내용으로 변동될 수 있습니다.",
+      "수상활동(스노클링 포함) 시에는 라이프 자켓 및 안전장비를 착용해야 하며, 미준수 시 발생하는 모든 책임은 본인에게 있습니다."
+    ]
+  }
+}
